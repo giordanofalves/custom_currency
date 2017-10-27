@@ -1,0 +1,7 @@
+*.gem
+Gemfile.lock
+.bundle
+vendor/ruby
+
+## MAC OS
+.DS_Store
