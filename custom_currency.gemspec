@@ -10,5 +10,8 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
   s.files       = Dir.glob('lib/**/*')
 
-  s.add_dependency 'money', '~> 6.7'
+  s.add_dependency             'money',     '~> 6.7'
+  s.add_development_dependency 'rspec',     '~> 3.6'
+  s.add_development_dependency 'pry',       '~> 0.10.1'
+  s.add_development_dependency 'simplecov', '~> 0.7.1'
 end

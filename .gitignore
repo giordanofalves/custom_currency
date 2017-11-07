@@ -3,5 +3,8 @@ Gemfile.lock
 .bundle
 vendor/ruby
 
-## MAC OS
+# coverage
+/coverage
+
+# MAC OS
 .DS_Store
